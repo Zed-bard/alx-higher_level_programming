@@ -26,7 +26,12 @@ for i in range(1, 10):
         print("HOW DO YOU PEOPLE READ THIS SYNTAX EASILY")
 ```
 
-The script, authored by Zerihun, explores if/else statements, loops, and functions in Python. The comments within the code express humorous frustrations with Python syntax.
+The script, authored by `ALX SE`, explores if/else statements, loops, and functions in Python. The comments within the code express humorous frustrations with Python syntax.
+
+### Here is the breakdown of the script messages
+The above code is a Python program to find all the brackets in a range. It works by iterating over the range from 1 to 10, and printing a different message depending on whether the current number is less than or equal to 5, between 6 and 8, or greater than 8.
+
+The first message, AAAAАННННН, is a string of Russian characters that translate to "AAAAH!!!!". The second message, WHERE ARE ALL THE BRACKETS???, is a question that is likely being asked by the programmer, who is frustrated by the lack of brackets in the code. The third message, HOW DO YOU PEOPLE READ THIS SYNTAX EASILY, is a question that is likely being asked to the reader of the code, who is hopefully able to understand the syntax even though it is difficult to read.
 
 ## Requirements
 
