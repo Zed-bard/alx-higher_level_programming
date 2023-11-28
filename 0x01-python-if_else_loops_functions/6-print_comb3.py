@@ -5,4 +5,3 @@ for number_1 in range(0, 10):
             print("{}{}".format(number_1, number_2))
         else:
             print("{}{}".format(number_1, number_2), end=", ")
-
