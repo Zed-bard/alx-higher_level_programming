@@ -1,8 +1,9 @@
 #!/usr/bin/python3
+# Author - Zerihun Shiferaw
+
 def magic_calculation(a, b, c):
     if a < b:
-        return(c)
+        return (c)
     if c > b:
-        return(a + b)
-    return(a*b - c)
-
+        return (a + b)
+    return (a*b - c)
