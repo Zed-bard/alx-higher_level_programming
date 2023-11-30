@@ -6,10 +6,7 @@ def add_arg(argv):
     Args:
         argv: List of command-line arguments.
     """
-    # Count the number of arguments passed (excluding the script name itself)
     n = len(argv) - 1
-
-    # If no arguments are provided, print 0 and return
     if n == 0:
         print("{:d}".format(n))
         return
@@ -25,5 +22,4 @@ def add_arg(argv):
 
 if __name__ == "__main__":
     import sys
-    # Call the add_arg function with the command-line arguments
     add_arg(sys.argv)
