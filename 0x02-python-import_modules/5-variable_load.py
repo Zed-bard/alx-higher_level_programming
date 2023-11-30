@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-from variable_load_5 import a
-
-def find_var():
-    print(a)
 
 if __name__ == "__main__":
-    find_var()
+    """
+    Print the value of the variable 'a' imported from the 'variable_load_5' module.
+    """
+    from variable_load_5 import a
+
+    # Print the value of the variable 'a'
+    print(a)
