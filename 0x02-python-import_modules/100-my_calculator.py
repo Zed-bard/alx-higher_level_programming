@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-"""A simple calculator program that imports all functions from calculator_1.py"""
-
 if __name__ == "__main__":
     from calculator_1 import *
     import sys
