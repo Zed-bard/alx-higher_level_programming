@@ -1,38 +1,47 @@
-Project Title: 0x17. C - Doubly Linked Lists
-Description
-This project involves the implementation of doubly linked lists in the C programming language. The provided data structure for this project is a doubly linked list node, defined as follows:
+# 0x17. C - Doubly linked lists
 
-c
-Copy code
-/**
- * struct dlistint_s - doubly linked list
- * @n: integer
- * @prev: points to the previous node
- * @next: points to the next node
- *
- * Description: doubly linked list node structure
- * 
- */
-typedef struct dlistint_s
-{
-    int n;
-    struct dlistint_s *prev;
-    struct dlistint_s *next;
-} dlistint_t;
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
-All files should end with a new line
-A README.md file, at the root of the folder of the project is mandatory
-Code should follow the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-Not allowed to use global variables
-No more than 5 functions per file
-The only C standard library functions allowed are malloc, free, printf, and exit
-Use provided main.c files for testing functions, but don’t push them to the repo
-Prototypes of all functions should be included in the header file named lists.h
-Don't forget to push your header file
-All header files should be include guarded
-Project Files
-0-print_dlistint.c: Function that prints all the elements of a doubly linked list of integers.
-1-dlistint_len.c: Function that returns the number of elements in a doubly linked list of integers
+## Description
+This C project focuses on understanding and implementing doubly linked lists. By completing the tasks outlined below, you'll gain knowledge about what doubly linked lists are, how to use them, and develop the ability to find information independently.
+
+## Learning Objectives
+- Understand the concept of a doubly linked list.
+- Learn to manipulate doubly linked lists.
+- Develop the skill to search for information effectively.
+
+## Tasks
+
+### 0. Print list
+Write a function (`print_dlistint`) that prints all elements of a `dlistint_t` list. This task introduces you to basic traversal of a doubly linked list and printing its elements.
+
+### 1. List length
+Implement a function (`dlistint_len`) that returns the number of elements in a linked `dlistint_t` list. This task focuses on counting the elements in a doubly linked list.
+
+### 2. Add node
+Create a function (`add_dnodeint`) that adds a new node at the beginning of a `dlistint_t` list. You'll be manipulating the list structure by adding nodes at the head.
+
+### 3. Add node at the end
+Develop a function (`add_dnodeint_end`) to add a new node at the end of a `dlistint_t` list. This task extends your knowledge to appending nodes at the tail of the doubly linked list.
+
+### 4. Free list
+Write a function (`free_dlistint`) to free a `dlistint_t` list. Here, you'll implement the cleanup process to release allocated memory for the entire list.
+
+### 5. Get node at index
+Implement a function (`get_dnodeint_at_index`) that returns the nth node of a `dlistint_t` linked list. This task involves navigating the list to find and return a specific node.
+
+### 6. Sum list
+Develop a function (`sum_dlistint`) to calculate and return the sum of all the data (n) in a `dlistint_t` linked list. You'll perform a basic arithmetic operation on the elements of the list.
+
+### 7. Insert at index
+Write a function (`insert_dnodeint_at_index`) to insert a new node at a given position in a `dlistint_t` list. This task challenges you to insert a node at a specified index, altering the list structure accordingly.
+
+### 8. Delete at index
+Create a function (`delete_dnodeint_at_index`) to delete the node at a specified index in a `dlistint_t` linked list. You'll learn to remove nodes from specific positions in the list.
+
+### 9. Crackme4
+Discover the password for `crackme4`. This task involves analyzing and understanding a password-protected program.
+
+### 10. Palindromes
+Explore palindromic numbers. Find the largest palindrome made from the product of two 2-digit numbers (e.g., 9009 = 91 × 99). This task involves mathematical exploration and problem-solving.
+
+### 11. crackme5
+Write a keygen for `crackme5`. Develop a key generator for a password-protected program (`crackme5`). This task requires a combination of reverse engineering and programming skills.
