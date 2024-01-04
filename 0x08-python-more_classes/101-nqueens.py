@@ -19,7 +19,8 @@ import sys
 from itertools import permutations
 
 
-def is_valid(board, n):
+def is_valid(board):
+    n = len(board)
     for i in range(n):
         for j in range(i + 1, n):
             if abs(i - j) == abs(board[i] - board[j]):
@@ -31,7 +32,7 @@ def solve_n_queens(n):
     solutions = []
     for perm in permutations(range(n)):
         board = list(perm)
-        if is_valid(board, n):
+        if is_valid(board):
             solutions.append(board)
     return solutions
 
