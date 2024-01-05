@@ -1,10 +1,10 @@
 # 0x09. Python - Everything is object
 
 ## Description
-This project delves into the concept that "everything is an object" in Python, exploring how Python works with different types of objects. The goal is to gain a deeper understanding of object behavior and how variables interact with each other.
+This project explores the concept that "everything is an object" in Python, delving into how Python handles various types of objects. The objective is to deepen the understanding of object behavior and how variables interact in Python.
 
 ## Background Context
-In this project, we pause to examine Python's handling of various object types, emphasizing the fact that everything in Python is an object. The exploration includes scenarios where variables may be modified unintentionally or without explicit intent. For example:
+The project pauses to closely examine Python's interaction with different types of objects. It highlights scenarios where variables may be unintentionally or implicitly modified. For example:
 
 ```python
 >>> a = 1
@@ -14,7 +14,7 @@ In this project, we pause to examine Python's handling of various object types, 
 1
 ```
 
-And another example involving lists:
+Another example involves lists:
 
 ```python
 >>> l = [1, 2, 3]
@@ -41,35 +41,30 @@ And another example involving lists:
 - No Shebang
 - All files should end with a newline character
 
-## Example
-For instance, consider the following directory structure:
+## Files Description
 
-```
-0x09-python-object_introduction/
-│-- 0-answer.txt
-│-- 1-answer.txt
-│-- 2-answer.txt
-│-- 3-answer.txt
-│-- 4-answer.txt
-│-- 5-answer.txt
-│-- 6-answer.txt
-│-- 7-answer.txt
-│-- 8-answer.txt
-│-- 9-answer.txt
-│-- 10-answer.txt
-│-- 11-answer.txt
-│-- 12-answer.txt
-│-- 13-answer.txt
-│-- 14-answer.txt
-│-- 15-answer.txt
-│-- 16-answer.txt
-│-- 17-answer.txt
-│-- 18-answer.txt
-│-- 19-copy_list.py
-│-- 100-magic_string.py
-│-- 101-locked_class.py
-│-- README.md
-```
+- **0-answer.txt**: (Description of the contents of the file)
+- **1-answer.txt**: (Description of the contents of the file)
+- **2-answer.txt**: (Description of the contents of the file)
+- **3-answer.txt**: (Description of the contents of the file)
+- **4-answer.txt**: (Description of the contents of the file)
+- **5-answer.txt**: (Description of the contents of the file)
+- **6-answer.txt**: (Description of the contents of the file)
+- **7-answer.txt**: (Description of the contents of the file)
+- **8-answer.txt**: (Description of the contents of the file)
+- **9-answer.txt**: (Description of the contents of the file)
+- **10-answer.txt**: (Description of the contents of the file)
+- **11-answer.txt**: (Description of the contents of the file)
+- **12-answer.txt**: (Description of the contents of the file)
+- **13-answer.txt**: (Description of the contents of the file)
+- **14-answer.txt**: (Description of the contents of the file)
+- **15-answer.txt**: (Description of the contents of the file)
+- **16-answer.txt**: (Description of the contents of the file)
+- **17-answer.txt**: (Description of the contents of the file)
+- **18-answer.txt**: (Description of the contents of the file)
+- **19-copy_list.py**: (Description of the contents of the file)
+- **100-magic_string.py**: (Description of the contents of the file)
+- **101-locked_class.py**: (Description of the contents of the file)
 
 ## Author
-[Zerihun Shiferaw] ([https://github.com/Zed-bard/alx-higher_level_programming])
+Zerihun Shiferaw ([Zed-bard](https://github.com/Zed-bard/alx-higher_level_programming))
