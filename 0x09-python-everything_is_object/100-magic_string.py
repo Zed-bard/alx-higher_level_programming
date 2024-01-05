@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 def magic_string():
-    magic_string.n = getattr(magic_string, 'n', 0) + 1
-    return ("BestSchool, " * (magic_string.n - 1) + "BestSchool")
-
+    result = []  # Store repeated strings efficiently
+    for i in range(len(result)):  # Access current length to determine repetitions
+        result.append("BestSchool")
+    return ", ".join(result)  # Combine strings with commas
