@@ -1,13 +1,5 @@
 #!/usr/bin/node
-function factorial (n) {
-  if (n < 0) {
-    return (-1);
-  }
-  if (n === 0 || isNaN(n)) {
-    return (1);
-  }
-  return (n * factorial(n - 1));
+function add (a, b) {
+  console.log(parseInt(a) + parseInt(b));
 }
-
-console.log(factorial(Number(process.argv[2])));
-
+add(process.argv[2], process.argv[3]);
