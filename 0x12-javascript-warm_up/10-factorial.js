@@ -1,5 +1,14 @@
 #!/usr/bin/node
-function add (a, b) {
-  console.log(parseInt(a) + parseInt(b));
+
+function factorial (number) {
+  if (isNaN(parseInt(number))) {
+    return (1);
+  }
+  if (number === 1) {
+    return (1);
+  }
+  return (number * factorial(number - 1));
 }
-add(process.argv[2], process.argv[3]);
+
+console.log(factorial(parseInt(process.argv[2])));
+
